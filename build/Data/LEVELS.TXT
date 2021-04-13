@@ -8,15 +8,22 @@
 #	scene	[filename]	Show a cut-scene
 #
 
+set kibangula's_Demo
+scene data/scanes/howto.txt
+file    data/levels/new-stage-1.txt
+next
+file    data/levels/new-stage-2.txt
+next
+scane data/scanes/ending.txt
 
+set	DBH_Course_test
 
-set	Grouping
+file    data/levels/new-stage-2.txt
 
-file	data/levels/example1.txt
+file	data/levels/new-stage1.txt
 next
 file	data/levels/holes.txt
 next
-scene	data/scenes/ending.txt
 
 
 set	water_(3_levels)
